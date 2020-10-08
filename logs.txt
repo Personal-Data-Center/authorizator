@@ -1,14 +1,21 @@
 Performing system checks...
 
 System check identified no issues (0 silenced).
-October 07, 2020 - 04:35:38
+October 08, 2020 - 04:04:33
 Django version 3.1.2, using settings 'authorizator.settings'
 Starting development server at http://0.0.0.0:80/
 Quit the server with CONTROL-C.
 Performing system checks...
 
 System check identified no issues (0 silenced).
-October 07, 2020 - 05:02:16
+October 08, 2020 - 04:04:58
+Django version 3.1.2, using settings 'authorizator.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 08, 2020 - 04:09:11
 Django version 3.1.2, using settings 'authorizator.settings'
 Starting development server at http://0.0.0.0:80/
 Quit the server with CONTROL-C.
