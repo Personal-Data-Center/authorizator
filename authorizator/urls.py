@@ -17,5 +17,5 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-   
+   path('authorizator/o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]
