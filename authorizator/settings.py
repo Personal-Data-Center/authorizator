@@ -27,15 +27,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
-
 # Application definition
 
 LOGIN_URL='/authorizator/login/'
 
+LOGIN_REDIRECT_URL = '/'
+
 # Application definition
 
 INSTALLED_APPS = [
+    'login',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -127,4 +128,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/authorizator/static/'
