@@ -27,5 +27,6 @@ urlpatterns = [
    path('authorizator/password_change/', views.PasswordChangeView.as_view(), name='password_change'),
    path('authorizator/password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
    url(r'^authorizator/cas/', include('cas_server.urls', namespace="cas_server")),
+   path('authorizator/admin/', admin.site.urls),
 
 ]
