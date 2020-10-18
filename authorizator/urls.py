@@ -24,9 +24,12 @@ from django.views.decorators.debug import sensitive_post_parameters, sensitive_v
 
 
 urlpatterns = [
+   path('authorizator/admin/', admin.site.urls),
+   path('authorizator/login/', views.LoginView.as_view(), name='login'),
+   path('authorizator/logout/', views.LogoutView.as_view(), name='logout'),
    path('authorizator/password_change/', views.PasswordChangeView.as_view(), name='password_change'),
    path('authorizator/password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
    url(r'^authorizator/cas/', include('cas_server.urls', namespace="cas_server")),
-   path('authorizator/admin/', admin.site.urls),
+
 
 ]

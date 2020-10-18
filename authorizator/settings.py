@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
-LOGIN_URL='/authorizator/login/'
+LOGIN_URL='/authorizator/login'
 
 LOGIN_REDIRECT_URL = '/'
 
@@ -93,6 +93,13 @@ DATABASES = {
 }
 
 
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+
+]
+
+
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
@@ -110,6 +117,31 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'cas_file': {
+            'format': '%(asctime)s %(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'cas_file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'cas_server.log',
+            'formatter': 'cas_file',
+        },
+    },
+    'loggers': {
+        'cas_server': {
+            'handlers': ['cas_file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
 
 
 # Internationalization

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% load cas_server %}
+{% block content %}
+<title>Login</title>
+{% load i18n %}
+<ul>
+  {% for error in form.non_field_errors %}
+    <li>{{error}}</li>
+  {% endfor %}
+</ul>
+
+<form class="form-signin" method="post" id="login_form"{% if post_url %} action="{{post_url}}"{% endif %}>
+    {% csrf_token %}
+    {% for field in form %}{% if not field|is_hidden %}
+      {% if field|is_checkbox %}
+
+      {% else %}
+        <p>{{field.label|capfirst}}:</p>
+        {{field}}
+      {% endif %}
+      {% else %}
+        {{field}}
+      {% endif %}
+    {% endfor %}
+  <input class="btn btn-primary btn-block btn-lg" value="Login" type="submit">
+</form>
+
+{% endblock %}
