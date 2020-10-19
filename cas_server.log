@@ -1,0 +1,253 @@
+2020-10-18 12:51:58,947 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 12:52:04,336 WARNING A login attempt failed
+2020-10-18 12:52:04,402 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 12:54:46,795 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 12:57:56,422 WARNING Service http://localhost/system/cas/login/?next=%2F not allowed.
+2020-10-18 12:58:31,271 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 13:00:28,354 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 13:00:32,623 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 13:02:15,532 INFO User lucas successfully authenticated
+2020-10-18 13:02:15,572 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 13:02:25,659 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 13:02:27,675 INFO User lucas successfully authenticated
+2020-10-18 13:02:27,733 WARNING Service http://localhost/cas/login/?next=%2F not allowed.
+2020-10-18 13:03:02,823 INFO User lucas successfully authenticated
+2020-10-18 13:03:02,996 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:03:03,320 INFO ValidateService: ticket ST-77c6y26Fx50e0oAPl3EO7dbGBinlvPB9McpxMcnc8bEnZTxF3hLaKBnc0na8j validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:03:09,558 INFO User lucas successfully authenticated
+2020-10-18 13:03:09,620 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:03:09,665 INFO ValidateService: ticket ST-UITzuwCw0vEaOSA98344DvQIxgkAUD9sZTiA6HKVWN17Nim4AHCXSR66hAZbZ validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:03:25,466 INFO User lucas successfully authenticated
+2020-10-18 13:03:25,529 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:03:25,662 INFO ValidateService: ticket ST-wBK4qq2gTKbYJJSoEQG36jUgwMiIkl5pl9aYOWRN1ypiPFI8oticC8x2VwFDo validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:04:07,144 INFO User lucas successfully authenticated
+2020-10-18 13:04:07,317 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:04:07,378 INFO ValidateService: ticket ST-LPgooDRLEmTc987jkJmPwDdO2Ov6H2g2E3eegXPYHHwTpcG6nzu0SPPmbcThk validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:04:09,628 INFO User lucas successfully authenticated
+2020-10-18 13:04:09,683 INFO Service ticket created for service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F by user lucas.
+2020-10-18 13:04:09,728 INFO ValidateService: ticket ST-sy6uHM877b6v2FL390HLdar0teV7zkz46QxpBbwS3qZC4TxQj207uQfQL6nrI validated for user lucas on service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F.
+2020-10-18 13:04:10,722 INFO User lucas successfully authenticated
+2020-10-18 13:04:11,040 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:04:11,146 INFO ValidateService: ticket ST-sTIG2fKMhwRtaumIvHAYGR1lV3u7EawaSHCvbKEHvjoiv351KiBZlMom6ADdv validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:05:59,952 INFO User lucas successfully authenticated
+2020-10-18 13:06:00,017 INFO Service ticket created for service http://localhost/system/?next=%2F by user lucas.
+2020-10-18 13:07:04,970 INFO User lucas successfully authenticated
+2020-10-18 13:07:05,106 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:07:05,174 INFO ValidateService: ticket ST-f0u5qvhIVVD0SbNN9vi0QAh14jxM3MNHpEnH3OgTwrwB26s0oAEYio9YXWZjv validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:11:32,158 INFO User lucas successfully authenticated
+2020-10-18 13:11:32,284 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:11:32,338 INFO ValidateService: ticket ST-GuPv8MUCOgA65QMucyzutWTwjwLBaAcWclGrKpU0Lx6EoGDK8Y59EcXNMQVNL validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:11:51,704 INFO User lucas successfully authenticated
+2020-10-18 13:11:51,833 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:11:51,959 INFO ValidateService: ticket ST-6XGGYYQDttFM6lVzpsIsvKqxLf4HZCkvAg39BmEU4WllWm1jpRQp0Kb3X6kSI validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:12:05,968 INFO User lucas successfully authenticated
+2020-10-18 13:12:06,128 INFO Service ticket created for service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F by user lucas.
+2020-10-18 13:12:06,171 INFO ValidateService: ticket ST-00kBE3nyMlw05H6cWJMI0S3no0pKouOaZFCeyOlytH5SjVZhOcmYZAhrkdTXm validated for user lucas on service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F.
+2020-10-18 13:12:11,783 INFO User lucas successfully authenticated
+2020-10-18 13:12:11,844 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:12:11,964 INFO ValidateService: ticket ST-XGtFmLrmKYnVURcwq2bcjWwyBPSOqSugAMjztqfByaupaTMdcSCWjtFl4YJgp validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:12:13,339 INFO User lucas successfully authenticated
+2020-10-18 13:12:13,445 INFO Service ticket created for service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F by user lucas.
+2020-10-18 13:12:13,507 INFO ValidateService: ticket ST-loqzvppZ5g7GRTGRkJ9lyq8uaCg0Tm8qrPyassZ25ETawgLOUijHYzNs2jasj validated for user lucas on service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F.
+2020-10-18 13:12:14,572 INFO User lucas successfully authenticated
+2020-10-18 13:12:14,637 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:12:14,690 INFO ValidateService: ticket ST-sZDe4QA9tJE4kiRy1kCoIOgjr9EtNYv3aCuKN2T3UGrU6gczSmkMLdBqpDTFo validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:12:15,695 INFO User lucas successfully authenticated
+2020-10-18 13:12:15,753 INFO Service ticket created for service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F by user lucas.
+2020-10-18 13:12:15,808 INFO ValidateService: ticket ST-lue1HMdO7FpuCRBni4mQHeNaNYECOxMSMj0BCLagjc7PTk45tNooHyWKuYvBE validated for user lucas on service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F.
+2020-10-18 13:13:34,918 INFO User lucas successfully authenticated
+2020-10-18 13:13:34,982 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:13:35,087 INFO ValidateService: ticket ST-BpxSkubcUSmnjo6Vy4QxRBHJExLG03Kc2pghCiUlU3h7Mtrago2flTmR2NTMv validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:13:36,694 INFO User lucas successfully authenticated
+2020-10-18 13:13:36,858 INFO Service ticket created for service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F by user lucas.
+2020-10-18 13:13:36,929 INFO ValidateService: ticket ST-mUOAbKD9JNQEsfcjD80ElIPEezM1lbUQmtb02CQEeVYtsNuZVeus06jeEFH1t validated for user lucas on service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F.
+2020-10-18 13:13:37,972 INFO User lucas successfully authenticated
+2020-10-18 13:13:38,032 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:13:38,077 INFO ValidateService: ticket ST-yNW1fT2SpTVXyB0mePpfONhm7UsVSNJyFawXpweMgJbP6GCpAUAk1QPdhYHba validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 13:13:39,899 INFO User lucas successfully authenticated
+2020-10-18 13:13:39,949 INFO Service ticket created for service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F by user lucas.
+2020-10-18 13:13:40,037 INFO ValidateService: ticket ST-EMxLajmV1tNXFGaM024zHQj5zE6tyKzMOct8eTNHUasGrdofuIsaw5nNbL2mS validated for user lucas on service http://localhost/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnext%253D%25252F.
+2020-10-18 13:21:13,133 INFO User lucas successfully authenticated
+2020-10-18 13:21:13,196 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:21:13,302 INFO ValidateService: ticket ST-Hvilxj2CooDMF2NJhS1dOZuLzJOwviZJIQwZ94zq7CKdvByxCDaQH2Xs4Yurz validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:30:47,469 INFO User lucas successfully authenticated
+2020-10-18 13:30:47,552 INFO Service ticket created for service http://localhost/system/cas/login/?next=2F/localhost/system/ by user lucas.
+2020-10-18 13:30:47,630 WARNING ValidateService: validation error: INVALID_SERVICE http://localhost/system/cas/login/?next=2F%2Flocalhost%2Fsystem%2F
+2020-10-18 13:33:22,765 INFO User lucas successfully authenticated
+2020-10-18 13:33:22,883 INFO Service ticket created for service http://localhost/system/cas/login/?nexthttp://localhost/system/ by user lucas.
+2020-10-18 13:33:22,957 WARNING ValidateService: validation error: INVALID_SERVICE http://localhost/system/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fsystem%252Fcas%252Flogin%252F%253Fnexthttp%253A%252F%252Flocalhost%252Fsystem%252F
+2020-10-18 13:34:24,665 INFO User lucas successfully authenticated
+2020-10-18 13:34:24,746 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem/ by user lucas.
+2020-10-18 13:34:24,796 WARNING ValidateService: validation error: INVALID_SERVICE http://localhost/system/cas/login/?next=%2Fsystem%2F
+2020-10-18 13:35:06,647 INFO User lucas successfully authenticated
+2020-10-18 13:35:06,750 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:35:06,950 INFO ValidateService: ticket ST-AnOxFNxWZdtaAMW62RlJiOx2XxGuc28JKpq6ELedNnzhRVQoLB5FF0SF4ycFm validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:43:23,850 INFO User lucas successfully authenticated
+2020-10-18 13:43:23,933 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:43:24,032 INFO ValidateService: ticket ST-OtNAHWgFTSfBPgE7Uz9WAUVYqv2JFKA8pxTKYmQHELCERcNNU20bvIYganG1p validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:55:47,881 INFO User lucas successfully authenticated
+2020-10-18 13:55:47,988 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 13:55:48,034 INFO ValidateService: ticket ST-ZHLWVuB9khckCoKmXADE3Xt1FYn848ptQSr6kszLhi6tavXHhqn4EtnTQuEKk validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 13:56:38,268 WARNING User lucas seems authenticated but is not found in the database.
+2020-10-18 13:56:38,268 INFO Logging out user lucas.
+2020-10-18 13:56:38,300 INFO User lucas logged out
+2020-10-18 13:56:40,717 INFO User lucas successfully authenticated
+2020-10-18 13:56:40,825 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 13:56:40,896 INFO ValidateService: ticket ST-UxkVCWRbitSkBfSS3phrYcEyX9FxNUIPkF65u3PzNNZca5EayHaqbjedgZgwY validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 14:32:10,264 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 14:32:10,367 INFO ValidateService: ticket ST-EafELdh192h8xGgJqd6u5zaL6wjGDNvb8GaM99mqhWUcjyp8F5Ln1qFv6TxgG validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 14:33:00,535 INFO Service ticket created for service http://localhost/store/cas/login/?next=%2F by user lucas.
+2020-10-18 14:33:00,984 INFO ValidateService: ticket ST-2pv3PrLXtbPrFvSvB5OSrpwRzlByaJdya1pPLxwflhEIjl7BBvprnK7pDqWNX validated for user lucas on service http://localhost/store/cas/login/?next=%2F.
+2020-10-18 14:33:41,252 INFO logout requested
+2020-10-18 14:33:41,256 INFO Logging out user lucas.
+2020-10-18 14:33:41,412 INFO User lucas logged out
+2020-10-18 14:34:17,657 INFO logout requested
+2020-10-18 14:36:17,100 INFO User lucas successfully authenticated
+2020-10-18 14:36:17,207 INFO Service ticket created for service http://localhost/store/cas/login/?next by user lucas.
+2020-10-18 14:36:17,257 WARNING ValidateService: validation error: INVALID_SERVICE http://localhost/store/cas/login/?next=%2Fauthorizator%2Fcas%2Flogin%3Fservice%3Dhttp%253A%252F%252Flocalhost%252Fstore%252Fcas%252Flogin%252F%253Fnext
+2020-10-18 14:38:35,636 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 14:38:35,781 INFO ValidateService: ticket ST-NAPMCL3NINRL7c0OdzOiJbVqWneuEadKErpnEG88ThQef8YpCb0KL6S64MYrf validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 14:45:13,003 INFO logout requested
+2020-10-18 14:45:13,015 INFO Logging out user lucas.
+2020-10-18 14:45:13,141 INFO User lucas logged out
+2020-10-18 14:45:36,755 INFO logout requested
+2020-10-18 14:47:11,572 INFO User lucas successfully authenticated
+2020-10-18 14:47:11,633 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2F by user lucas.
+2020-10-18 14:47:11,730 INFO ValidateService: ticket ST-gAhUFl4sz4zv1s3fy0bpKFZ1iWxQyfH5pneswx8Z8Q6SohlQvrgLxSFDB9km3 validated for user lucas on service http://localhost/system/cas/login/?next=%2F.
+2020-10-18 14:47:59,305 INFO logout requested
+2020-10-18 14:47:59,314 INFO Logging out user lucas.
+2020-10-18 14:47:59,505 INFO User lucas logged out
+2020-10-18 14:48:06,805 INFO User lucas successfully authenticated
+2020-10-18 14:48:06,922 INFO Service ticket created for service http://localhost/system/cas/login/?next=system by user lucas.
+2020-10-18 14:48:06,983 INFO ValidateService: ticket ST-YQHJUC8Rlvl8QINube8nBDMiPGQ0o44po3cDgrURPwTK0R7OAXzw49FnaBcT7 validated for user lucas on service http://localhost/system/cas/login/?next=system.
+2020-10-18 14:48:28,638 INFO logout requested
+2020-10-18 14:48:28,646 INFO Logging out user lucas.
+2020-10-18 14:48:28,715 INFO User lucas logged out
+2020-10-18 14:48:45,142 INFO User lucas successfully authenticated
+2020-10-18 14:48:45,208 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 14:48:45,264 INFO ValidateService: ticket ST-3HP36qz56BiwTeMpgcCJsjfmkAObAxEcu9jFOgXydgWVX8vB2jaHoGZaYtHsm validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 14:49:12,179 INFO logout requested
+2020-10-18 14:49:12,184 INFO Logging out user lucas.
+2020-10-18 14:49:12,303 INFO User lucas logged out
+2020-10-18 14:49:40,350 INFO User lucas successfully authenticated
+2020-10-18 14:49:40,454 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 14:49:40,506 INFO ValidateService: ticket ST-99hiqLCn1JdKHWaZ5Pw9WR4xmjDVecu0m8jXAGkvw7wHWXi89t0eI8GkOSctp validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 14:54:32,451 WARNING User lucas seems authenticated but is not found in the database.
+2020-10-18 14:54:32,451 INFO Logging out user lucas.
+2020-10-18 14:54:32,486 INFO User lucas logged out
+2020-10-18 14:55:13,254 INFO logout requested
+2020-10-18 14:55:31,850 INFO logout requested
+2020-10-18 14:55:42,946 INFO logout requested
+2020-10-18 14:55:45,163 INFO logout requested
+2020-10-18 14:55:45,551 INFO logout requested
+2020-10-18 14:55:47,564 INFO logout requested
+2020-10-18 14:55:59,625 INFO User lucas successfully authenticated
+2020-10-18 14:55:59,677 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 14:55:59,724 INFO ValidateService: ticket ST-fuII4LFTNHXTr2AmeH8oZtW71vx2P9VtbEe81YpYtcV8KB8RcSQoP6tNkFVVP validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:04:13,064 INFO logout requested
+2020-10-18 15:07:47,341 INFO User lucas successfully authenticated
+2020-10-18 15:07:47,495 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:07:47,617 INFO ValidateService: ticket ST-53gKLAF3zwQFPdq50r3zEJsCyi9hToY2Pp2LQDYImetdeRu5uB9dVy8OGcaJH validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:08:08,399 INFO logout requested
+2020-10-18 15:08:08,408 INFO Logging out user lucas.
+2020-10-18 15:08:08,487 INFO User lucas logged out
+2020-10-18 15:08:12,806 INFO User lucas successfully authenticated
+2020-10-18 15:08:12,898 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:08:13,030 INFO ValidateService: ticket ST-MTUsX8usnQc5oSF8lTyDwl7pxzVfCkxlw0JIgSFL2Ey6pEQgYHcxJ6esYmJrg validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:08:40,330 INFO logout requested
+2020-10-18 15:08:40,335 INFO Logging out user lucas.
+2020-10-18 15:08:40,457 INFO User lucas logged out
+2020-10-18 15:08:48,586 INFO User lucas successfully authenticated
+2020-10-18 15:08:53,982 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:08:54,211 INFO ValidateService: ticket ST-kgIJdVOASymH5s2wuROwGXXzglCgKf9qmuQ2HbKaZwr9W3s4bSIco0pQZVOky validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:22:33,939 INFO logout requested
+2020-10-18 15:22:33,948 INFO Logging out user lucas.
+2020-10-18 15:22:34,031 INFO User lucas logged out
+2020-10-18 15:23:16,073 INFO logout requested
+2020-10-18 15:23:21,455 INFO User lucas successfully authenticated
+2020-10-18 15:23:21,752 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:21,832 INFO ValidateService: ticket ST-bzt9mPstiBiT1ypdAKFmVNsVHzQdORRJi45BA7rNXjYXUXKcWYWpS1BC319m1 validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:22,081 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:22,236 INFO ValidateService: ticket ST-aoRLapNg5YyDb5PfRiOTIYR1g3wTHjlZKrshVjEuiEyx0jex3ic8YIfdPDX6N validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:22,652 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:22,928 INFO ValidateService: ticket ST-qP6fgLo5GNKntHiAUUTIBDkHV47UnEIuxrl1azQ8eWaFVlXwP0kJjgqmMkxHe validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:23,403 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:23,581 INFO ValidateService: ticket ST-7TPlufkGBSmiC8NG4Yyb5DrsjuOmi1a9lvVrg3QEIKAFnQRsXFGrcS2S097OD validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:26,344 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:26,399 INFO ValidateService: ticket ST-BwCiZhEJ385qijSRKEP25Y0RmEKkUAx03ilr5NDvrmCaSJBeAuIBzuFrgzFFY validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:26,653 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:26,700 INFO ValidateService: ticket ST-yLLSkQbtkh9I6RCNeFILb1ornS3huNN0Ucr3EIxcILUfGGVPOp12XFACwzatV validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:27,194 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:27,239 INFO ValidateService: ticket ST-JiphQPZNOdCTM3M9lWhImsKtdUdxw031HJMgbwn4dV1aDUK516Fqm2GJAGf1i validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:28,840 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:28,992 INFO ValidateService: ticket ST-67hmevpkC9wW3OjstcFQtaSkjJHRBLzLQkeWOYUKqa111plK5GxWs0CtT387o validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:29,204 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:29,284 INFO ValidateService: ticket ST-3tzwMLRNyFAJLsjqhYNAGH7Ric7yjPHt3yOg0YRMjF0GqOcz79DGiEVRyOe6P validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:29,504 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:29,649 INFO ValidateService: ticket ST-ovj7Ugf4o7At9oONsNDkVX1nyTOum0cO3RXAoxur8cSiINfppV6x0pmrK49Qk validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:29,912 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:34,736 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:34,891 INFO ValidateService: ticket ST-zPlRmBmOOcGSn4calpP3CSSjfIpGMrXHTCDDrWwKwJeCsGsz0GURbcdvdMibv validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:35,194 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:35,373 INFO ValidateService: ticket ST-E6BMaAh0hQzyRIpNKxnDwhbscr2Dtym4iHIFo8XRD5N9iJAjkyoMxfUJqZk8k validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:35,663 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:35,751 INFO ValidateService: ticket ST-CutYgkvnUGn4ZDBQyh2PG8sLlqZOKQ4GuoASXoVViNN4GTV2Z5urxhDtKIhVQ validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:36,074 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:36,226 INFO ValidateService: ticket ST-pPwLvlULJgJ5dFBBTkEU6nclw2jTHdnaUUK9VS9PLoAyUdT0cpS2TT8ph67TR validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:44,488 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:44,542 INFO ValidateService: ticket ST-VQvHR0Cq90K4KHGUiZcApc39PDEPWYKxEfjqwUQvzT2K6wLcB7osJM15xg5Ef validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:23:54,822 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:23:54,915 INFO ValidateService: ticket ST-NslmIUuD3OsdZqfORib25trvW5LOKf6qPEwmMp9FILQK1PmM7TPeGgOGQ8wDh validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:24:13,019 INFO logout requested
+2020-10-18 15:24:24,396 INFO User lucas successfully authenticated
+2020-10-18 15:24:24,525 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:24:24,569 INFO ValidateService: ticket ST-zb62n1Kor3E6s6a4yABjrpolUQ7Y7ssF2zxf1s6e4yyNuOrPO2FdtkYmyOfoM validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:24:34,618 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:24:34,715 INFO ValidateService: ticket ST-d1EET9glYZkY3qoCsKyFrCbyPVub80DZx2Dm1dvFeoM2CvniII65Gsvo9vVXm validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:24:45,327 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:24:45,374 INFO ValidateService: ticket ST-aWVBuQKhQd561KUhrSo3ZLjYCk0HrMujBaYIFx3cNmmu0oXIJS59Gnb1Uq5Q4 validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:24:55,319 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:24:55,391 INFO ValidateService: ticket ST-TPSdMBi3rQVtDNo4aMUvWhmu5fv72ghSlzIsu5P41mx6Q69x9n4QJ7UAkK36N validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:25:55,377 INFO logout requested
+2020-10-18 15:25:55,381 INFO Logging out user lucas.
+2020-10-18 15:25:55,519 INFO User lucas logged out
+2020-10-18 15:26:30,389 INFO User lucas successfully authenticated
+2020-10-18 15:26:30,810 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 15:26:30,873 INFO ValidateService: ticket ST-MFdBXnHAvP3WFOzxi034yG3yDMCmxcstcJGfo6gLoRiUs7O6mXAWSHo7X6Vmf validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 15:26:58,195 INFO User lucas successfully authenticated
+2020-10-18 15:26:58,262 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 15:26:58,308 INFO ValidateService: ticket ST-gv3yX8wg2ix98YVS5Srwaz5GxdhkeMhrAtuphu3iDyjZcQJxJg1dpvQjfHj6n validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 15:27:06,284 INFO logout requested
+2020-10-18 15:27:06,290 INFO Logging out user lucas.
+2020-10-18 15:27:06,439 INFO User lucas logged out
+2020-10-18 16:06:13,217 INFO User lucas successfully authenticated
+2020-10-18 16:06:13,333 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 16:06:13,385 INFO ValidateService: ticket ST-z2BT4EmBuSfePxJ1EaONJilwEUce0iu8GoKDLGTPsoulzZ9UxcQIiRrXgI51m validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 16:06:59,604 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 16:06:59,727 INFO ValidateService: ticket ST-pUI2EKAwDNCmtWptkCR0BL1IPIN3o3ZKazavt88I1ZcNiyckavsCvkdTTJJUc validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 16:10:38,724 INFO Service ticket created for service http://localhost/store/cas/login/?next=%2F by user lucas.
+2020-10-18 16:10:38,799 INFO ValidateService: ticket ST-yjyrsAyOa8wPtCVQS5TfPokCHU3zHCjAALIgxcZCkmnR7gixVul1dRrV1CxDT validated for user lucas on service http://localhost/store/cas/login/?next=%2F.
+2020-10-18 16:10:39,161 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 16:10:39,324 INFO ValidateService: ticket ST-iYP5hyP39WAkuT2y5FPzNRbdXESkHJElHDOnF0521qQLLfFLEWkJYKjfFW3mT validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 16:11:29,059 INFO Service ticket created for service http://localhost/store/cas/login/?next=%2Fstore by user lucas.
+2020-10-18 16:11:29,179 INFO ValidateService: ticket ST-DfuMCSHGFdHur2uIeq4jJCwamMxCCQW2hBMPWjtIsxxjdmpwMVZpJBxsEKT5H validated for user lucas on service http://localhost/store/cas/login/?next=%2Fstore.
+2020-10-18 16:11:45,161 INFO logout requested
+2020-10-18 16:11:45,167 INFO Logging out user lucas.
+2020-10-18 16:11:45,302 INFO User lucas logged out
+2020-10-18 16:11:51,074 INFO User lucas successfully authenticated
+2020-10-18 16:11:51,135 INFO Service ticket created for service http://localhost/store/cas/login/?next=%2Fstore by user lucas.
+2020-10-18 16:11:51,182 INFO ValidateService: ticket ST-LjrQI04px1NDphGiszSL33u7Q2dgAJpRmOkyN7nsvUdbCnZZdyUcSspL2ne9A validated for user lucas on service http://localhost/store/cas/login/?next=%2Fstore.
+2020-10-18 16:13:07,583 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 16:13:07,810 INFO ValidateService: ticket ST-fTCZZ6VxTfYNyXPAFYyQZeiKLb4UnizvXU4nwnQXhlQqxJE3rTFUeitSQd39c validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 16:14:20,864 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 16:14:20,901 INFO ValidateService: ticket ST-0pStJJT96dRasLWyVtHTca2uscJCxL2F3OjsdDttxrjHosVOwgyrpNMoIUCc5 validated for user lucas on service http://localhost/cas/login/?next=%2F.
+2020-10-18 16:17:44,846 INFO Service ticket created for service http://localhost/system/cas/login/?next=%2Fsystem by user lucas.
+2020-10-18 16:17:44,978 INFO ValidateService: ticket ST-rswBUVmhOHXbMOaEcKvnx2SrIdZoxNVKxVfK9NpYx5APoMdh36j7YhJatBCTV validated for user lucas on service http://localhost/system/cas/login/?next=%2Fsystem.
+2020-10-18 16:17:48,948 INFO Service ticket created for service http://localhost/store/cas/login/?next=%2Fstore by user lucas.
+2020-10-18 16:17:49,069 INFO ValidateService: ticket ST-H3bHC9kRKh9AVmcaKf54y88d4GIdIC70KCCkHS68RnxtvXkigeM3WkLdHhWxG validated for user lucas on service http://localhost/store/cas/login/?next=%2Fstore.
+2020-10-18 18:25:32,889 WARNING User lucas seems authenticated but is not found in the database.
+2020-10-18 18:25:32,901 INFO Logging out user lucas.
+2020-10-18 18:25:32,942 INFO User lucas logged out
+2020-10-18 18:25:46,544 INFO User lucas successfully authenticated
+2020-10-18 18:25:46,660 INFO Service ticket created for service http://localhost/cas/login/?next=%2F by user lucas.
+2020-10-18 18:25:46,772 INFO ValidateService: ticket ST-RuQOOrmoWip8lZgUAa13oiNxjBRLbjZGL1ZuhJKpK5zTYdXQY4XuBDi9tIF2B validated for user lucas on service http://localhost/cas/login/?next=%2F.

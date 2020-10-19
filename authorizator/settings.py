@@ -25,6 +25,8 @@ SECRET_KEY = 'j*7$-c*@v^tne-^!ltk8jh4uaq2g5-b#_#p&v(r_s#8a67_*aq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+SESSION_COOKIE_NAME = 'authorizator_session'
+
 ALLOWED_HOSTS = ['*']
 
 # Application definition
@@ -44,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cas_server',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
