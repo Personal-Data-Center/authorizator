@@ -9,10 +9,13 @@ class getUser(APIView):
 
     def get(self, request):
         token = request.GET.get('token', False)
-        session = Session.objects.get(session_key=token)
-        session_data = session.get_decoded()
-        user = User.objects.get(id=session_data["_auth_user_id"])
-        content = {'username': user.username, 'email': user.email}
+        try:
+            session = Session.objects.get(session_key=token)
+            session_data = session.get_decoded()
+            user = User.objects.get(id=session_data["_auth_user_id"])
+            content = {'username': user.username, 'email': user.email, 'admin' : user.is_superuser}
+        except Exception as e:
+            content = {'error': str(e)}
         return Response(content)
 
 class isAuthenticated(APIView):
