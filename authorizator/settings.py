@@ -14,20 +14,29 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Service path set in docker enviroment variable $SERVICE_PATH
+env_var = os.environ.get('SERVICE_PATH')
+if env_var != None:
+    SERVICE_PATH = env_var
+else:
+    raise ValueError('SERVICE_PATH enviroment variable must be set in docker')
 
+env_var = os.environ.get('HOST')
+if env_var != None:
+    ALLOWED_HOSTS = [ env_var ]
+else:
+    raise ValueError('HOST enviroment variable must be set in docker')
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'j*7$-c*@v^tne-^!ltk8jh4uaq2g5-b#_#p&v(r_s#8a67_*aq'
+env_var = os.environ.get('SECRET_KEY')
+if env_var != None:
+    SECRET_KEY = env_var
+else:
+    raise ValueError('SECURE_KEY enviroment variable must be set in docker')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 SESSION_COOKIE_NAME = 'authorizator_session'
-
-ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -39,7 +48,7 @@ LOGIN_REDIRECT_URL = '/'
 # Application definition
 
 INSTALLED_APPS = [
-    'login',
+    'authorization',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -168,4 +177,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/authorizator/static/'
+STATIC_URL = SERVICE_PATH + 'static/'

@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.contrib.auth import views
 from django.urls import path, include
-
+from django.conf import settings
 
 urlpatterns = [
-   path('authorizator/login/', views.LoginView.as_view(), name='login'),
-   path('authorizator/logout/', views.LogoutView.as_view(), name='logout'),
-   path('authorizator/password_change/', views.PasswordChangeView.as_view(), name='password_change'),
-   path('authorizator/password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
-   path('authorizator/api/', include('login.urls')),
+   path(settings.SERVICE_PATH + 'login/', views.LoginView.as_view(), name='login'),
+   path(settings.SERVICE_PATH + 'logout/', views.LogoutView.as_view(), name='logout'),
+   path(settings.SERVICE_PATH + 'password_change/', views.PasswordChangeView.as_view(), name='password_change'),
+   path(settings.SERVICE_PATH + 'password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
+   path(settings.SERVICE_PATH + 'api/', include('authorization.urls')),
 ]
