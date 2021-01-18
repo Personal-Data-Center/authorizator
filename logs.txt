@@ -1,0 +1,14 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 16, 2021 - 00:31:40
+Django version 3.1.4, using settings 'authorizator.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 18, 2021 - 02:41:58
+Django version 3.1.4, using settings 'authorizator.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.

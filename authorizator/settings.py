@@ -31,7 +31,19 @@ env_var = os.environ.get('SECRET_KEY')
 if env_var != None:
     SECRET_KEY = env_var
 else:
-    raise ValueError('SECURE_KEY enviroment variable must be set in docker')
+    raise ValueError('SECRET_KEY enviroment variable must be set in docker')
+
+env_var = os.environ.get('DB_PASSWORD')
+if env_var != None:
+    DB_PASSWORD = env_var
+else:
+    raise ValueError('DB_PASSWORD enviroment variable must be set in docker')
+
+env_var = os.environ.get('DB_USER')
+if env_var != None:
+    DB_USER = env_var
+else:
+    raise ValueError('DB_USER enviroment variable must be set in docker')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -48,7 +60,7 @@ LOGIN_REDIRECT_URL = '/'
 # Application definition
 
 INSTALLED_APPS = [
-    'authorization',
+    'pdc.authorization',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -97,7 +109,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'authorizator',
         'USER': 'root',
-        'PASSWORD': 'pdc_dev',
+        'PASSWORD': DB_PASSWORD,
         'HOST': 'mariadb',
         'PORT': '3306',
     }
@@ -134,30 +146,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'cas_file': {
-            'format': '%(asctime)s %(levelname)s %(message)s'
-        },
-    },
-    'handlers': {
-        'cas_file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': 'cas_server.log',
-            'formatter': 'cas_file',
-        },
-    },
-    'loggers': {
-        'cas_server': {
-            'handlers': ['cas_file'],
-            'level': 'INFO',
-            'propagate': True,
-        },
-    },
-}
+
 
 
 # Internationalization

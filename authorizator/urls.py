@@ -22,5 +22,5 @@ urlpatterns = [
    path(settings.SERVICE_PATH + 'logout/', views.LogoutView.as_view(), name='logout'),
    path(settings.SERVICE_PATH + 'password_change/', views.PasswordChangeView.as_view(), name='password_change'),
    path(settings.SERVICE_PATH + 'password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
-   path(settings.SERVICE_PATH + 'api/', include('authorization.urls')),
+   path(settings.SERVICE_PATH + 'api/', include('pdc.authorization.urls')),
 ]
