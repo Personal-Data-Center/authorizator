@@ -16,11 +16,13 @@ Including another URLconf
 from django.contrib.auth import views
 from django.urls import path, include
 from django.conf import settings
+from django.conf.urls.static import static
+
 
 urlpatterns = [
    path(settings.SERVICE_PATH + 'login/', views.LoginView.as_view(), name='login'),
    path(settings.SERVICE_PATH + 'logout/', views.LogoutView.as_view(), name='logout'),
    path(settings.SERVICE_PATH + 'password_change/', views.PasswordChangeView.as_view(), name='password_change'),
    path(settings.SERVICE_PATH + 'password_change/done/', views.PasswordChangeDoneView.as_view(), name='password_change_done'),
-   path(settings.SERVICE_PATH + 'api/', include('pdc.authorization.urls')),
-]
+   path(settings.SERVICE_PATH + 'api/', include('pdc.authorization.urls')) ,
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

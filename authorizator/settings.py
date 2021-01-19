@@ -23,7 +23,7 @@ else:
 
 env_var = os.environ.get('HOST')
 if env_var != None:
-    ALLOWED_HOSTS = [ env_var ]
+    ALLOWED_HOSTS = [ env_var, '127.0.0.1' ]
 else:
     raise ValueError('HOST enviroment variable must be set in docker')
 
@@ -45,6 +45,12 @@ if env_var != None:
 else:
     raise ValueError('DB_USER enviroment variable must be set in docker')
 
+env_var = os.environ.get('SYSTEM_API_KEY')
+if env_var != None:
+    SYSTEM_API_KEY = env_var
+else:
+    raise ValueError('SYSTEM_API_KEY enviroment variable must be set in docker')
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -56,6 +62,8 @@ LOGIN_URL='/authorizator/login'
 
 LOGIN_REDIRECT_URL = '/'
 
+MEDIA_URL = SERVICE_PATH + 'media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Application definition
 
