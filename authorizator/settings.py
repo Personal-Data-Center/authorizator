@@ -23,7 +23,7 @@ else:
 
 env_var = os.environ.get('HOST')
 if env_var != None:
-    ALLOWED_HOSTS = [ env_var, '127.0.0.1' ]
+    ALLOWED_HOSTS = [ env_var, '127.0.0.1', 'authorizator' ]
 else:
     raise ValueError('HOST enviroment variable must be set in docker')
 
