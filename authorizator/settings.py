@@ -51,10 +51,16 @@ if env_var != None:
 else:
     raise ValueError('SYSTEM_API_KEY enviroment variable must be set in docker')
 
+env_var = os.environ.get('SERVICE_NAME')
+if env_var != None:
+    SERVICE_NAME = env_var
+else:
+    raise ValueError('SERVICE_NAME enviroment variable must be set in docker')
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-SESSION_COOKIE_NAME = 'authorizator_session'
+SESSION_COOKIE_NAME = 'sessionCookie'
 
 # Application definition
 
